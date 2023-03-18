@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ED1FA45729C2C66200530873 /* starterProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = starterProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1FA45729C2C66200530873 /* TicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1FA46429C2D23900530873 /* TicTacToe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicTacToe.cpp; sourceTree = "<group>"; };
 		ED1FA46529C2D23900530873 /* TicTacToe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TicTacToe.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +42,7 @@
 		ED1FA44E29C2C66200530873 = {
 			isa = PBXGroup;
 			children = (
-				ED1FA45929C2C66200530873 /* starterProject */,
+				ED1FA45929C2C66200530873 /* TicTacToe */,
 				ED1FA45829C2C66200530873 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +50,26 @@
 		ED1FA45829C2C66200530873 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED1FA45729C2C66200530873 /* starterProject */,
+				ED1FA45729C2C66200530873 /* TicTacToe */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED1FA45929C2C66200530873 /* starterProject */ = {
+		ED1FA45929C2C66200530873 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
 				ED1FA46429C2D23900530873 /* TicTacToe.cpp */,
 				ED1FA46529C2D23900530873 /* TicTacToe.hpp */,
 			);
-			path = starterProject;
+			path = TicTacToe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED1FA45629C2C66200530873 /* starterProject */ = {
+		ED1FA45629C2C66200530873 /* TicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED1FA45E29C2C66200530873 /* Build configuration list for PBXNativeTarget "starterProject" */;
+			buildConfigurationList = ED1FA45E29C2C66200530873 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
 			buildPhases = (
 				ED1FA45329C2C66200530873 /* Sources */,
 				ED1FA45429C2C66200530873 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = starterProject;
+			name = TicTacToe;
 			productName = starterProject;
-			productReference = ED1FA45729C2C66200530873 /* starterProject */;
+			productReference = ED1FA45729C2C66200530873 /* TicTacToe */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED1FA45229C2C66200530873 /* Build configuration list for PBXProject "starterProject" */;
+			buildConfigurationList = ED1FA45229C2C66200530873 /* Build configuration list for PBXProject "TicTacToe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED1FA45629C2C66200530873 /* starterProject */,
+				ED1FA45629C2C66200530873 /* TicTacToe */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED1FA45229C2C66200530873 /* Build configuration list for PBXProject "starterProject" */ = {
+		ED1FA45229C2C66200530873 /* Build configuration list for PBXProject "TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1FA45C29C2C66200530873 /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED1FA45E29C2C66200530873 /* Build configuration list for PBXNativeTarget "starterProject" */ = {
+		ED1FA45E29C2C66200530873 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1FA45F29C2C66200530873 /* Debug */,
